@@ -1,0 +1,16 @@
+{
+    "development": {
+      "username": "NexusDB_owner",
+      "password": "npg_D3xS7aJNARqP",
+      "port": 5432,
+      "database": "NexusDB",
+      "host": "ep-bold-boat-a1e2owlw-pooler.ap-southeast-1.aws.neon.tech",
+      "dialect": "postgres",
+      "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+    }
+  }

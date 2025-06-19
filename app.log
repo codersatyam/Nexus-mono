@@ -1,0 +1,336 @@
+2025-05-11T13:14:12.888Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-11T13:14:13.174Z [INFO]: postgresDB Connected....
+2025-05-11T13:14:31.770Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-11T13:14:32.041Z [INFO]: postgresDB Connected....
+2025-05-11T13:14:32.041Z [INFO]: Database connected successfully.
+2025-05-12T17:26:17.670Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:26:19.120Z [INFO]: postgresDB Connected....
+2025-05-12T17:26:19.120Z [INFO]: Database connected successfully.
+2025-05-12T17:28:15.792Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:28:16.075Z [INFO]: postgresDB Connected....
+2025-05-12T17:28:16.076Z [INFO]: Database connected successfully.
+2025-05-12T17:31:46.640Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:31:47.940Z [INFO]: postgresDB Connected....
+2025-05-12T17:31:47.940Z [INFO]: Database connected successfully.
+2025-05-12T17:33:07.080Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:33:07.380Z [INFO]: postgresDB Connected....
+2025-05-12T17:33:07.380Z [INFO]: Database connected successfully.
+2025-05-12T17:33:09.556Z [ERROR]: Service DEBUG:  productRepo.Product is not a function
+2025-05-12T17:33:09.560Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:33:52.353Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:33:53.829Z [INFO]: postgresDB Connected....
+2025-05-12T17:33:53.829Z [INFO]: Database connected successfully.
+2025-05-12T17:33:56.868Z [ERROR]: Error in getAllProducts repository: Product.findAll is not a function
+2025-05-12T17:33:56.870Z [ERROR]: Service DEBUG:  Product.findAll is not a function
+2025-05-12T17:33:56.871Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:33:59.024Z [ERROR]: Error in getAllProducts repository: Product.findAll is not a function
+2025-05-12T17:33:59.025Z [ERROR]: Service DEBUG:  Product.findAll is not a function
+2025-05-12T17:33:59.026Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:37:18.891Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:37:19.761Z [INFO]: postgresDB Connected....
+2025-05-12T17:37:19.761Z [INFO]: Database connected successfully.
+2025-05-12T17:37:33.778Z [ERROR]: Error in getAllProducts repository: WHERE parameter "orgId" has invalid "undefined" value
+2025-05-12T17:37:33.779Z [ERROR]: Service DEBUG:  WHERE parameter "orgId" has invalid "undefined" value
+2025-05-12T17:37:33.781Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:38:24.955Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:38:25.233Z [INFO]: postgresDB Connected....
+2025-05-12T17:38:25.234Z [INFO]: Database connected successfully.
+2025-05-12T17:38:27.636Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."orgId" = ':orgId';
+2025-05-12T17:38:28.617Z [ERROR]: Error in getAllProducts repository: column products.orgId does not exist
+2025-05-12T17:38:28.617Z [ERROR]: Service DEBUG:  column products.orgId does not exist
+2025-05-12T17:38:28.619Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:41:36.084Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:41:36.631Z [INFO]: postgresDB Connected....
+2025-05-12T17:41:36.631Z [INFO]: Database connected successfully.
+2025-05-12T17:42:53.279Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = ':orgId';
+2025-05-12T17:42:54.844Z [ERROR]: Error in getAllProducts repository: invalid input syntax for type integer: ":orgId"
+2025-05-12T17:42:54.844Z [ERROR]: Service DEBUG:  invalid input syntax for type integer: ":orgId"
+2025-05-12T17:42:54.845Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:47:22.434Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:47:23.733Z [INFO]: postgresDB Connected....
+2025-05-12T17:47:23.734Z [INFO]: Database connected successfully.
+2025-05-12T17:47:24.033Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = ':orgId';
+2025-05-12T17:47:24.319Z [ERROR]: Error in getAllProducts repository: invalid input syntax for type integer: ":orgId"
+2025-05-12T17:47:24.320Z [ERROR]: Service DEBUG:  invalid input syntax for type integer: ":orgId"
+2025-05-12T17:47:24.321Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:48:04.691Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:48:04.970Z [INFO]: postgresDB Connected....
+2025-05-12T17:48:04.970Z [INFO]: Database connected successfully.
+2025-05-12T17:48:22.318Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = ':orgId';
+2025-05-12T17:48:22.555Z [ERROR]: Error in getAllProducts repository: invalid input syntax for type integer: ":orgId"
+2025-05-12T17:48:22.556Z [ERROR]: Service DEBUG:  invalid input syntax for type integer: ":orgId"
+2025-05-12T17:48:22.558Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:50:04.785Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:50:05.063Z [INFO]: postgresDB Connected....
+2025-05-12T17:50:05.064Z [INFO]: Database connected successfully.
+2025-05-12T17:50:07.665Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = ':orgId';
+2025-05-12T17:50:08.687Z [ERROR]: Error in getAllProducts repository: invalid input syntax for type integer: ":orgId"
+2025-05-12T17:50:08.688Z [ERROR]: Service DEBUG:  invalid input syntax for type integer: ":orgId"
+2025-05-12T17:50:08.689Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:52:16.782Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:52:17.075Z [INFO]: postgresDB Connected....
+2025-05-12T17:52:17.075Z [INFO]: Database connected successfully.
+2025-05-12T17:52:58.117Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:52:58.349Z [INFO]: postgresDB Connected....
+2025-05-12T17:52:58.349Z [INFO]: Database connected successfully.
+2025-05-12T17:53:36.739Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '1';
+2025-05-12T17:53:37.856Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T17:56:04.710Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:56:05.020Z [INFO]: postgresDB Connected....
+2025-05-12T17:56:05.020Z [INFO]: Database connected successfully.
+2025-05-12T17:56:12.152Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '1';
+2025-05-12T17:57:26.117Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T17:57:26.386Z [INFO]: postgresDB Connected....
+2025-05-12T17:57:26.386Z [INFO]: Database connected successfully.
+2025-05-12T17:57:43.941Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '1';
+2025-05-12T18:26:43.415Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T18:26:43.712Z [INFO]: postgresDB Connected....
+2025-05-12T18:26:43.712Z [INFO]: Database connected successfully.
+2025-05-12T18:26:57.775Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '1';
+2025-05-12T18:27:05.264Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2';
+2025-05-12T18:27:50.923Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T18:27:51.187Z [INFO]: postgresDB Connected....
+2025-05-12T18:27:51.187Z [INFO]: Database connected successfully.
+2025-05-12T18:30:25.154Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."status" = 'ACTIVE';
+2025-05-12T18:30:53.523Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."status" = 'ACTIVE';
+2025-05-12T20:05:15.745Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:05:16.022Z [INFO]: postgresDB Connected....
+2025-05-12T20:05:16.022Z [INFO]: Database connected successfully.
+2025-05-12T20:05:39.775Z [ERROR]: Service DEBUG:  Failed to generate lead ID
+2025-05-12T20:05:39.777Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:08:40.702Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:08:41.205Z [INFO]: postgresDB Connected....
+2025-05-12T20:08:41.206Z [INFO]: Database connected successfully.
+2025-05-12T20:08:49.548Z [ERROR]: Service DEBUG:  Failed to generate lead ID
+2025-05-12T20:08:49.552Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:23:27.899Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:23:28.781Z [INFO]: postgresDB Connected....
+2025-05-12T20:23:28.781Z [INFO]: Database connected successfully.
+2025-05-12T20:23:34.812Z [ERROR]: Service DEBUG:  productInfo is not defined
+2025-05-12T20:23:34.814Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:24:32.434Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:24:34.044Z [INFO]: postgresDB Connected....
+2025-05-12T20:24:34.044Z [INFO]: Database connected successfully.
+2025-05-12T20:24:36.359Z [ERROR]: Service DEBUG:  productInfo is not defined
+2025-05-12T20:24:36.363Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:27:47.616Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:27:47.897Z [INFO]: postgresDB Connected....
+2025-05-12T20:27:47.897Z [INFO]: Database connected successfully.
+2025-05-12T20:27:55.669Z [ERROR]: Service DEBUG:  Failed to generate lead ID
+2025-05-12T20:27:55.671Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:29:32.440Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:29:32.718Z [INFO]: postgresDB Connected....
+2025-05-12T20:29:32.718Z [INFO]: Database connected successfully.
+2025-05-12T20:29:36.669Z [ERROR]: Service DEBUG:  db is not defined
+2025-05-12T20:29:36.671Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:33:51.080Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:33:51.357Z [INFO]: postgresDB Connected....
+2025-05-12T20:33:51.358Z [INFO]: Database connected successfully.
+2025-05-12T20:33:53.986Z [ERROR]: Service DEBUG:  db is not defined
+2025-05-12T20:33:53.988Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:36:04.264Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:36:04.537Z [INFO]: postgresDB Connected....
+2025-05-12T20:36:04.537Z [INFO]: Database connected successfully.
+2025-05-12T20:36:36.744Z [ERROR]: Service DEBUG:  db is not defined
+2025-05-12T20:36:36.747Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:37:16.104Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."status" = 'ACTIVE';
+2025-05-12T20:38:48.737Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:38:49.117Z [INFO]: postgresDB Connected....
+2025-05-12T20:38:49.118Z [INFO]: Database connected successfully.
+2025-05-12T20:38:51.412Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."status" = 'ACTIVE';
+2025-05-12T20:38:54.741Z [INFO]: Executing (9f5ea3cd-9c0d-4e66-bff6-fc892331723b): START TRANSACTION;
+2025-05-12T20:38:56.135Z [ERROR]: Error in getAllProducts repository: db.products.finfOne is not a function
+2025-05-12T20:38:56.138Z [INFO]: Executing (9f5ea3cd-9c0d-4e66-bff6-fc892331723b): ROLLBACK;
+2025-05-12T20:38:56.430Z [ERROR]: Transaction error: db.products.finfOne is not a function
+2025-05-12T20:38:56.431Z [ERROR]: Service DEBUG:  db.products.finfOne is not a function
+2025-05-12T20:38:56.432Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:40:49.011Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:40:50.289Z [INFO]: postgresDB Connected....
+2025-05-12T20:40:50.290Z [INFO]: Database connected successfully.
+2025-05-12T20:40:52.802Z [INFO]: Executing (1dc1b26f-e598-4b0a-926f-3dd88960a295): START TRANSACTION;
+2025-05-12T20:41:02.440Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationId" = '2' AND "products"."productId" = 1 AND "products"."status" = 'ACTIVE' LIMIT 1;
+2025-05-12T20:41:02.778Z [ERROR]: Error in getAllProducts repository: column products.organizationId does not exist
+2025-05-12T20:41:02.779Z [INFO]: Executing (1dc1b26f-e598-4b0a-926f-3dd88960a295): ROLLBACK;
+2025-05-12T20:41:04.398Z [ERROR]: Transaction error: column products.organizationId does not exist
+2025-05-12T20:41:04.398Z [ERROR]: Service DEBUG:  column products.organizationId does not exist
+2025-05-12T20:41:04.399Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:42:27.239Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:42:27.990Z [INFO]: postgresDB Connected....
+2025-05-12T20:42:27.991Z [INFO]: Database connected successfully.
+2025-05-12T20:42:33.552Z [INFO]: Executing (62332d41-9026-4ab2-bb54-3cd7ca0300a6): START TRANSACTION;
+2025-05-12T20:42:38.089Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."productId" = 1 AND "products"."status" = 'ACTIVE' LIMIT 1;
+2025-05-12T20:42:39.075Z [ERROR]: Error in getAllProducts repository: column products.productId does not exist
+2025-05-12T20:42:39.076Z [INFO]: Executing (62332d41-9026-4ab2-bb54-3cd7ca0300a6): ROLLBACK;
+2025-05-12T20:42:39.362Z [ERROR]: Transaction error: column products.productId does not exist
+2025-05-12T20:42:39.362Z [ERROR]: Service DEBUG:  column products.productId does not exist
+2025-05-12T20:42:39.364Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:43:05.119Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:43:05.408Z [INFO]: postgresDB Connected....
+2025-05-12T20:43:05.409Z [INFO]: Database connected successfully.
+2025-05-12T20:43:24.717Z [INFO]: Executing (cb850816-d960-4d98-9f38-299b33af8dcb): START TRANSACTION;
+2025-05-12T20:43:26.998Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 1 AND "products"."status" = 'ACTIVE';
+2025-05-12T20:43:27.280Z [INFO]: Executing (cb850816-d960-4d98-9f38-299b33af8dcb): ROLLBACK;
+2025-05-12T20:43:27.577Z [ERROR]: Transaction error: Invalid Product
+2025-05-12T20:43:27.577Z [ERROR]: Service DEBUG:  Invalid Product
+2025-05-12T20:43:27.579Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:45:26.961Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:45:27.240Z [INFO]: postgresDB Connected....
+2025-05-12T20:45:27.240Z [INFO]: Database connected successfully.
+2025-05-12T20:45:50.319Z [INFO]: Executing (1d72589e-366c-4022-bc0f-1862b34d0981): START TRANSACTION;
+2025-05-12T20:45:52.966Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 1 AND "products"."status" = 'ACTIVE';
+2025-05-12T20:45:53.238Z [INFO]: Executing (1d72589e-366c-4022-bc0f-1862b34d0981): ROLLBACK;
+2025-05-12T20:45:53.517Z [ERROR]: Transaction error: Invalid Product
+2025-05-12T20:45:53.517Z [ERROR]: Service DEBUG:  Invalid Product
+2025-05-12T20:45:53.518Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-05-12T20:49:54.327Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:49:56.525Z [INFO]: postgresDB Connected....
+2025-05-12T20:49:56.525Z [INFO]: Database connected successfully.
+2025-05-12T20:50:10.789Z [INFO]: Executing (19ee22be-c27d-4901-99f0-e64109d82c7d): START TRANSACTION;
+2025-05-12T20:50:14.134Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 1 AND "products"."status" = 'ACTIVE';
+2025-05-12T20:50:14.420Z [INFO]: Executing (19ee22be-c27d-4901-99f0-e64109d82c7d): ROLLBACK;
+2025-05-12T20:50:14.694Z [ERROR]: Transaction error: Invalid Product
+2025-05-12T20:52:47.285Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T20:52:47.556Z [INFO]: postgresDB Connected....
+2025-05-12T20:52:47.556Z [INFO]: Database connected successfully.
+2025-05-12T20:53:00.895Z [INFO]: Executing (965c88e4-35ec-49db-a70b-257edec89b22): START TRANSACTION;
+2025-05-12T20:53:04.581Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 1 AND "products"."status" = 'ACTIVE';
+2025-05-12T20:53:04.860Z [INFO]: Executing (965c88e4-35ec-49db-a70b-257edec89b22): ROLLBACK;
+2025-05-12T20:53:05.141Z [ERROR]: Transaction error: Invalid Product
+2025-05-12T20:56:12.516Z [INFO]: Executing (b7938985-f034-4c8d-adfc-e2098197cda2): START TRANSACTION;
+2025-05-12T20:56:15.855Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T20:56:16.532Z [INFO]: Executing (b7938985-f034-4c8d-adfc-e2098197cda2): ROLLBACK;
+2025-05-12T20:56:16.816Z [ERROR]: Transaction error: Invalid Product
+2025-05-12T20:57:57.664Z [INFO]: Executing (ced2b01c-4689-426a-bc2e-8d8e9897b092): START TRANSACTION;
+2025-05-12T20:58:00.864Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T20:58:01.148Z [ERROR]: Error in createLoanApplication repository: notNull Violation: leads.Id cannot be null
+2025-05-12T20:58:01.150Z [INFO]: Executing (ced2b01c-4689-426a-bc2e-8d8e9897b092): ROLLBACK;
+2025-05-12T20:58:01.426Z [ERROR]: Transaction error: notNull Violation: leads.Id cannot be null
+2025-05-12T21:00:55.128Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T21:00:55.404Z [INFO]: postgresDB Connected....
+2025-05-12T21:00:55.404Z [INFO]: Database connected successfully.
+2025-05-12T21:01:10.590Z [INFO]: Executing (97e845e4-85dc-4492-a5e0-3afd9362edd9): START TRANSACTION;
+2025-05-12T21:01:13.385Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T21:01:14.133Z [ERROR]: Error in createLoanApplication repository: notNull Violation: leads.Id cannot be null
+2025-05-12T21:01:14.135Z [INFO]: Executing (97e845e4-85dc-4492-a5e0-3afd9362edd9): ROLLBACK;
+2025-05-12T21:01:14.611Z [ERROR]: Transaction error: notNull Violation: leads.Id cannot be null
+2025-05-12T21:07:02.226Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T21:07:02.535Z [INFO]: postgresDB Connected....
+2025-05-12T21:07:02.536Z [INFO]: Database connected successfully.
+2025-05-12T21:07:12.517Z [INFO]: Executing (c265fdf9-239e-4732-97a4-9f596f92e6dc): START TRANSACTION;
+2025-05-12T21:07:15.106Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T21:07:15.436Z [INFO]: Executing (c265fdf9-239e-4732-97a4-9f596f92e6dc): INSERT INTO "leads" ("id","phoneNo","category","organizationId","applicationDetails","status","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id","phoneNo","category","prodcutId","organizationId","address","geohash","applicationDetails","status","createdAt","updatedAt";
+2025-05-12T21:07:15.707Z [ERROR]: Error in applLead repository: value "9548313517" is out of range for type integer
+2025-05-12T21:07:15.709Z [INFO]: Executing (c265fdf9-239e-4732-97a4-9f596f92e6dc): ROLLBACK;
+2025-05-12T21:07:15.979Z [ERROR]: Transaction error: value "9548313517" is out of range for type integer
+2025-05-12T21:08:27.845Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T21:08:28.124Z [INFO]: postgresDB Connected....
+2025-05-12T21:08:28.125Z [INFO]: Database connected successfully.
+2025-05-12T21:08:31.219Z [INFO]: Executing (ca7a2bf2-75ea-488f-861d-275dfc333679): START TRANSACTION;
+2025-05-12T21:08:39.386Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T21:08:39.676Z [INFO]: Executing (ca7a2bf2-75ea-488f-861d-275dfc333679): INSERT INTO "leads" ("id","phoneNo","category","organizationId","applicationDetails","status","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id","phoneNo","category","prodcutId","organizationId","address","geohash","applicationDetails","status","createdAt","updatedAt";
+2025-05-12T21:08:39.967Z [INFO]: Executing (ca7a2bf2-75ea-488f-861d-275dfc333679): COMMIT;
+2025-05-12T21:11:05.181Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T21:11:05.456Z [INFO]: postgresDB Connected....
+2025-05-12T21:11:05.456Z [INFO]: Database connected successfully.
+2025-05-12T21:11:37.924Z [INFO]: Executing (7ba08d3f-1a25-490d-8c41-d05ebdea7f7f): START TRANSACTION;
+2025-05-12T21:11:42.968Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T21:11:43.267Z [INFO]: Executing (7ba08d3f-1a25-490d-8c41-d05ebdea7f7f): INSERT INTO "leads" ("id","phoneNo","category","organizationId","applicationDetails","status","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id","phoneNo","category","prodcutId","organizationId","address","geohash","applicationDetails","status","createdAt","updatedAt";
+2025-05-12T21:11:43.541Z [INFO]: Executing (7ba08d3f-1a25-490d-8c41-d05ebdea7f7f): COMMIT;
+2025-05-12T21:13:04.917Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T21:13:05.193Z [INFO]: postgresDB Connected....
+2025-05-12T21:13:05.193Z [INFO]: Database connected successfully.
+2025-05-12T21:13:54.950Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-12T21:13:55.216Z [INFO]: postgresDB Connected....
+2025-05-12T21:13:55.216Z [INFO]: Database connected successfully.
+2025-05-12T21:14:14.691Z [INFO]: Executing (c0b7b06d-aa06-4d1f-ae6a-a9d28e74391d): START TRANSACTION;
+2025-05-12T21:14:18.235Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T21:14:18.527Z [INFO]: Executing (c0b7b06d-aa06-4d1f-ae6a-a9d28e74391d): INSERT INTO "leads" ("id","phoneNo","category","productId","organizationId","applicationDetails","status","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING "id","phoneNo","category","productId","organizationId","address","geohash","applicationDetails","status","createdAt","updatedAt";
+2025-05-12T21:14:18.807Z [ERROR]: Error in applLead repository: column "productId" of relation "leads" does not exist
+2025-05-12T21:14:18.808Z [INFO]: Executing (c0b7b06d-aa06-4d1f-ae6a-a9d28e74391d): ROLLBACK;
+2025-05-12T21:14:19.089Z [ERROR]: Transaction error: column "productId" of relation "leads" does not exist
+2025-05-12T21:15:37.879Z [INFO]: Executing (a48727cf-fd4b-439b-81d6-75d476d197c1): START TRANSACTION;
+2025-05-12T21:15:42.456Z [INFO]: Executing (default): SELECT "id", "productCode", "productName", "category", "productType", "organizationID", "minInterestRatePerAnnum", "maxInterestRatePerAnnum", "minimumPrincipalAmount", "maximumPrincipalAmount", "minTenurePeriodInMonths", "maxTenurePeriodInMonths", "status", "deactivatedAt", "createdAt", "updatedAt" FROM "products" AS "products" WHERE "products"."organizationID" = '2' AND "products"."id" = 5 AND "products"."status" = 'ACTIVE';
+2025-05-12T21:15:42.726Z [INFO]: Executing (a48727cf-fd4b-439b-81d6-75d476d197c1): INSERT INTO "leads" ("id","phoneNo","category","productId","organizationId","applicationDetails","status","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING "id","phoneNo","category","productId","organizationId","address","geohash","applicationDetails","status","createdAt","updatedAt";
+2025-05-12T21:15:43.564Z [INFO]: Executing (a48727cf-fd4b-439b-81d6-75d476d197c1): COMMIT;
+2025-05-13T17:55:41.185Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-05-13T17:55:41.462Z [INFO]: postgresDB Connected....
+2025-05-13T17:55:41.462Z [INFO]: Database connected successfully.
+2025-06-19T10:03:24.099Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:03:24.211Z [INFO]: postgresDB Connected....
+2025-06-19T10:03:24.211Z [INFO]: Database connected successfully.
+2025-06-19T10:09:02.504Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:09:02.605Z [INFO]: postgresDB Connected....
+2025-06-19T10:09:02.605Z [INFO]: Database connected successfully.
+2025-06-19T10:11:14.846Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:11:14.947Z [INFO]: postgresDB Connected....
+2025-06-19T10:11:14.947Z [INFO]: Database connected successfully.
+2025-06-19T10:12:05.099Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:12:05.198Z [INFO]: postgresDB Connected....
+2025-06-19T10:12:05.198Z [INFO]: Database connected successfully.
+2025-06-19T10:12:09.673Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-19T10:16:47.192Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:16:47.286Z [INFO]: postgresDB Connected....
+2025-06-19T10:16:47.287Z [INFO]: Database connected successfully.
+2025-06-19T10:17:00.620Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-19T10:18:52.008Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:18:52.107Z [INFO]: postgresDB Connected....
+2025-06-19T10:18:52.107Z [INFO]: Database connected successfully.
+2025-06-19T10:19:26.824Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:19:26.924Z [INFO]: postgresDB Connected....
+2025-06-19T10:19:26.924Z [INFO]: Database connected successfully.
+2025-06-19T10:19:29.315Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:19:29.470Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-19T10:19:45.619Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:19:45.714Z [INFO]: postgresDB Connected....
+2025-06-19T10:19:45.715Z [INFO]: Database connected successfully.
+2025-06-19T10:19:52.546Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:19:52.657Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-19T10:20:13.349Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:20:13.456Z [INFO]: postgresDB Connected....
+2025-06-19T10:20:13.456Z [INFO]: Database connected successfully.
+2025-06-19T10:20:16.166Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:20:16.278Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-19T10:20:47.842Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:20:47.938Z [INFO]: postgresDB Connected....
+2025-06-19T10:20:47.939Z [INFO]: Database connected successfully.
+2025-06-19T10:21:16.399Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:21:16.499Z [INFO]: postgresDB Connected....
+2025-06-19T10:21:16.499Z [INFO]: Database connected successfully.
+2025-06-19T10:21:25.747Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:21:25.851Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'NEX00001' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-19T10:22:50.080Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:22:50.181Z [INFO]: postgresDB Connected....
+2025-06-19T10:22:50.181Z [INFO]: Database connected successfully.
+2025-06-19T10:24:43.070Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:24:43.171Z [INFO]: Executing (6ea36941-db35-47bb-b99d-9c3a80da7886): START TRANSACTION;
+2025-06-19T10:24:43.270Z [INFO]: Executing (6ea36941-db35-47bb-b99d-9c3a80da7886): ROLLBACK;
+2025-06-19T10:24:43.369Z [ERROR]: Transaction error: expenseRepo.createExpense is not a function
+2025-06-19T10:24:43.370Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-06-19T10:25:15.888Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:25:15.988Z [INFO]: postgresDB Connected....
+2025-06-19T10:25:15.988Z [INFO]: Database connected successfully.
+2025-06-19T10:25:24.094Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:25:24.195Z [INFO]: Executing (2de8d428-c44d-40b4-9e24-9bc0fc978e44): START TRANSACTION;
+2025-06-19T10:25:24.300Z [ERROR]: Error in addExpense repository: notNull Violation: expenses.id cannot be null
+2025-06-19T10:25:24.301Z [INFO]: Executing (2de8d428-c44d-40b4-9e24-9bc0fc978e44): ROLLBACK;
+2025-06-19T10:25:24.401Z [ERROR]: Transaction error: notNull Violation: expenses.id cannot be null
+2025-06-19T10:25:24.402Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-06-19T10:26:45.051Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:26:45.151Z [INFO]: postgresDB Connected....
+2025-06-19T10:26:45.152Z [INFO]: Database connected successfully.
+2025-06-19T10:26:51.364Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:26:51.470Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-06-19T10:27:41.175Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:27:41.272Z [INFO]: postgresDB Connected....
+2025-06-19T10:27:41.272Z [INFO]: Database connected successfully.
+2025-06-19T10:27:47.425Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:27:47.525Z [ERROR]: Unhandled error: Right-hand side of 'instanceof' is not an object
+2025-06-19T10:29:21.532Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-19T10:29:21.627Z [INFO]: postgresDB Connected....
+2025-06-19T10:29:21.627Z [INFO]: Database connected successfully.
+2025-06-19T10:29:25.555Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:29:25.659Z [INFO]: Executing (45d6836f-fbb3-4bb0-8536-d690c6a31b97): START TRANSACTION;
+2025-06-19T10:29:25.764Z [INFO]: Executing (45d6836f-fbb3-4bb0-8536-d690c6a31b97): INSERT INTO "expenses" ("id","userId","title","amount","expenseDate","category","tag","remarks","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10) RETURNING "id","userId","title","amount","expenseDate","category","tag","remarks","createdAt","updatedAt";
+2025-06-19T10:29:25.865Z [INFO]: Executing (45d6836f-fbb3-4bb0-8536-d690c6a31b97): COMMIT;
+2025-06-19T10:29:37.915Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
+2025-06-19T10:29:38.018Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'NEX00001' ORDER BY "expenses"."expenseDate" DESC;

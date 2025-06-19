@@ -1,0 +1,24 @@
+{
+  "name": "nexus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cls-rtracer": "^2.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "pg": "^8.15.6",
+    "sequelize": "^6.37.7",
+    "textbelt": "^0.0.4",
+    "textmagic-rest-client": "^1.0.11",
+    "winston": "^3.17.0"
+  }
+}
