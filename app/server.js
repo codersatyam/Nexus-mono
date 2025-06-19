@@ -9,6 +9,7 @@ const logger = require('../domain/logs')
 const publicRoutes = require('../routes/public')
 
 
+
 const initializeServer = async(port) => {
   try {
     await connectDB();
@@ -26,6 +27,7 @@ const initializeServer = async(port) => {
     // server.use(cors({
     //   origin: ['https://www.crewkraft.in']
     // }));
+    server.use(cors({ origin: "*" }));
 
     // Rate limiting
     server.use(rateLimit({
