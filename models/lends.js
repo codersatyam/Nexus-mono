@@ -3,11 +3,11 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class expenses extends Model {
+  class lends extends Model {
     static associate(models) {
     }
   };
-  expenses.init({
+  lends.init({
     id: {
       type: DataTypes.STRING,
       primaryKey: true,
@@ -15,6 +15,10 @@ module.exports = (sequelize, DataTypes) => {
     },
     userId: {
       type: DataTypes.STRING,
+      allowNull: false,
+    },
+    name:{
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     title: {
@@ -25,15 +29,19 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.FLOAT,
       allowNull: false,
     },
-    expenseDate: {
+    dueAmount:{
+      type: DataTypes.FLOAT,
+      allowNull: false,
+    },
+    partialAmount:{
+      type: DataTypes.FLOAT,
+      allowNull: true,
+    },
+    lendDate: {
       type: DataTypes.DATE,
       allowNull: false,
     },
-    category: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    tag: {
+    status: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -43,8 +51,8 @@ module.exports = (sequelize, DataTypes) => {
     },
   },{
     sequelize,
-    modelName: 'expenses',
+    modelName: 'lends',
 }
 );
-  return expenses;
+  return lends;
 };
