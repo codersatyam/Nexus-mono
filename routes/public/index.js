@@ -2,10 +2,11 @@ const express = require("express")
 const router = express.Router()
 
 const expense = require("./expense")
-
+const lend = require("./lend")
 // Verify that each imported route is a valid router middleware
 const routes = [
     { path: "/expense", handler: expense},
+    { path: "/lend", handler: lend},
 ];
 
 // Add routes with validation
