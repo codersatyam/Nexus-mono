@@ -3,10 +3,12 @@ const router = express.Router()
 
 const expense = require("./expense")
 const lend = require("./lend")
+const investment = require("./investment")
 // Verify that each imported route is a valid router middleware
 const routes = [
     { path: "/expense", handler: expense},
     { path: "/lend", handler: lend},
+    { path: "/investment", handler: investment},
 ];
 
 // Add routes with validation
