@@ -5,13 +5,8 @@ const allErrors = require("../../domain/errors")
 const {expenseRepo} = require("../../repo/public")
 const {withTransaction} = require("../../utils/transactionWrapper")
 
-const addExpense = async (phoneNo, record) => {
+const addExpense = async (userId, record) => {
     try {
-        const user = await expenseRepo.getUserByPhoneNo(phoneNo);
-        if(!user){
-            return allErrors.userNotFound.getJSONError();
-        }
-        const userId = user?.id;
         const expenseId = "NEXUS-" + randomUUID();
         record.id = expenseId;
         const response = await withTransaction(async (t) => {
@@ -29,13 +24,8 @@ const addExpense = async (phoneNo, record) => {
     }
 };
 
-const getExpenses = async (phoneNo) => {
+const getExpenses = async (userId) => {
     try {
-        const user = await expenseRepo.getUserByPhoneNo(phoneNo);
-        if(!user){
-            return allErrors.userNotFound.getJSONError();
-        }
-        const userId = user?.id;
         const expenses = await expenseRepo.getExpenses(userId);
         return {
             status: 'success',

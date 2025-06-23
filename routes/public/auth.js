@@ -1,43 +1,55 @@
 const express = require("express");
 const router = express.Router();
-const generalConfigs = require('../../config/general-config')
 const logger = require('../../domain/logs')
-const { validateLoginBody } = require('../../helper/notification');
 const { authService } = require('../../services/public');
 const allErrors = require("../../domain/errors");
 
 router.post('/register', async (req, res) => {
     try {
-        if (!req.body) {
-            res.status(400).send("Invalid request body");
+        const { email } = req.body;
+        
+        if (!email) {
+            return res.status(400).send({
+                status: 'error',
+                message: 'Email is required'
+            });
         }
-        const response = await authService.register(req.body);
-        if (!response.err) {
+
+        const response = await authService.register(email);
+        
+        if (response.status === 'SUCCESS') {
             res.status(200).send(response);
         } else {
-            res.status(400).send(response.err);
+            res.status(400).send(response);
         }
     } catch (err) {
         handleError(err, res);
     }
 });
 
-router.post('/login', async (req, res) => {
+router.post('/verifyOTP', async (req, res) => {
     try {
-        if (!req.body) {
-            res.status(400).send("Invalid request body");
+        const { email, otp } = req.body;
+        
+        if (!email || !otp) {
+            return res.status(400).send({
+                status: 'error',
+                message: 'Email and OTP are required'
+            });
         }
-        await validateLoginBody(req.body);
-        const response = await authService.login(req.body);
-        if (!response.err) {
+
+        const response = await authService.verifyOTP(email, otp);
+
+        if (response.status === 'SUCCESS') {
             res.status(200).send(response);
         } else {
-            res.status(400).send(response.err);
+            res.status(400).send(response);
         }
     } catch (err) {
         handleError(err, res);
     }
 });
+
 
 const handleError = (err, res) => {
     res.status(400);

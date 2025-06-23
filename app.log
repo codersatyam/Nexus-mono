@@ -334,3 +334,560 @@
 2025-06-19T10:29:25.865Z [INFO]: Executing (45d6836f-fbb3-4bb0-8536-d690c6a31b97): COMMIT;
 2025-06-19T10:29:37.915Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = '9548313517' LIMIT 1;
 2025-06-19T10:29:38.018Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'NEX00001' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-22T11:54:09.877Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T11:54:09.970Z [INFO]: postgresDB Connected....
+2025-06-22T11:54:09.971Z [INFO]: Database connected successfully.
+2025-06-22T11:55:16.036Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T11:55:16.116Z [INFO]: postgresDB Connected....
+2025-06-22T11:55:16.116Z [INFO]: Database connected successfully.
+2025-06-22T11:55:39.032Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T11:55:39.107Z [INFO]: postgresDB Connected....
+2025-06-22T11:55:39.107Z [INFO]: Database connected successfully.
+2025-06-22T11:56:12.333Z [ERROR]: Error sending OTP email: nodemailer.createTransporter is not a function
+2025-06-22T11:56:12.334Z [ERROR]: Error generating and sending OTP: nodemailer.createTransporter is not a function
+2025-06-22T11:57:10.638Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T11:57:10.724Z [INFO]: postgresDB Connected....
+2025-06-22T11:57:10.724Z [INFO]: Database connected successfully.
+2025-06-22T11:57:15.830Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T11:57:15.830Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:02:27.155Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:02:27.250Z [INFO]: postgresDB Connected....
+2025-06-22T12:02:27.250Z [INFO]: Database connected successfully.
+2025-06-22T12:02:50.124Z [ERROR]: Error sending OTP email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3158a2f3736sm8348511a91.27 - gsmtp
+2025-06-22T12:02:50.124Z [ERROR]: Error generating and sending OTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3158a2f3736sm8348511a91.27 - gsmtp
+2025-06-22T12:07:42.492Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:07:42.574Z [INFO]: postgresDB Connected....
+2025-06-22T12:07:42.575Z [INFO]: Database connected successfully.
+2025-06-22T12:07:52.788Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:07:52.789Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:08:16.839Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:08:16.915Z [INFO]: postgresDB Connected....
+2025-06-22T12:08:16.915Z [INFO]: Database connected successfully.
+2025-06-22T12:08:21.642Z [ERROR]: Error sending OTP email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-237d8403e3asm58870455ad.88 - gsmtp
+2025-06-22T12:08:21.643Z [ERROR]: Error generating and sending OTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-237d8403e3asm58870455ad.88 - gsmtp
+2025-06-22T12:16:31.684Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:16:31.762Z [INFO]: postgresDB Connected....
+2025-06-22T12:16:31.763Z [INFO]: Database connected successfully.
+2025-06-22T12:17:06.244Z [ERROR]: Error sending OTP email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7490a6c1f73sm6095216b3a.169 - gsmtp
+2025-06-22T12:17:06.245Z [ERROR]: Error generating and sending OTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7490a6c1f73sm6095216b3a.169 - gsmtp
+2025-06-22T12:34:16.987Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:34:17.065Z [INFO]: postgresDB Connected....
+2025-06-22T12:34:17.065Z [INFO]: Database connected successfully.
+2025-06-22T12:34:41.377Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <4f6f617d-07eb-459c-3677-49f3312b2d9b@gmail.com>
+2025-06-22T12:48:59.659Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:48:59.732Z [INFO]: postgresDB Connected....
+2025-06-22T12:48:59.733Z [INFO]: Database connected successfully.
+2025-06-22T12:49:16.591Z [INFO]: Executing (0ce59b53-1512-4a56-bc2d-4f1b5861d56a): START TRANSACTION;
+2025-06-22T12:49:16.673Z [ERROR]: Error in getAllProducts repository: notNull Violation: otps.id cannot be null,
+notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:49:16.674Z [INFO]: Executing (0ce59b53-1512-4a56-bc2d-4f1b5861d56a): ROLLBACK;
+2025-06-22T12:49:16.752Z [ERROR]: Transaction error: notNull Violation: otps.id cannot be null,
+notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:49:16.752Z [ERROR]: Service DEBUG:  notNull Violation: otps.id cannot be null,
+notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:49:56.116Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:49:56.191Z [INFO]: postgresDB Connected....
+2025-06-22T12:49:56.191Z [INFO]: Database connected successfully.
+2025-06-22T12:50:02.389Z [INFO]: Executing (5950c271-2100-4e56-bff7-70b5eb68cad7): START TRANSACTION;
+2025-06-22T12:50:02.469Z [ERROR]: Error in getAllProducts repository: notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:50:02.469Z [INFO]: Executing (5950c271-2100-4e56-bff7-70b5eb68cad7): ROLLBACK;
+2025-06-22T12:50:02.545Z [ERROR]: Transaction error: notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:50:02.545Z [ERROR]: Service DEBUG:  notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:50:24.511Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:50:24.588Z [INFO]: postgresDB Connected....
+2025-06-22T12:50:24.588Z [INFO]: Database connected successfully.
+2025-06-22T12:50:28.899Z [INFO]: Executing (b0e0b684-1ef7-490a-9b5f-c3536a9308c1): START TRANSACTION;
+2025-06-22T12:50:28.980Z [ERROR]: Error in getAllProducts repository: notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:50:28.981Z [INFO]: Executing (b0e0b684-1ef7-490a-9b5f-c3536a9308c1): ROLLBACK;
+2025-06-22T12:50:29.057Z [ERROR]: Transaction error: notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:50:29.058Z [ERROR]: Service DEBUG:  notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:51:08.213Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:51:08.294Z [INFO]: postgresDB Connected....
+2025-06-22T12:51:08.295Z [INFO]: Database connected successfully.
+2025-06-22T12:51:10.499Z [INFO]: Executing (93f8f564-033c-4bbb-a8af-bf42ff752ea5): START TRANSACTION;
+2025-06-22T12:51:10.583Z [ERROR]: Error in getAllProducts repository: notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:51:10.584Z [INFO]: Executing (93f8f564-033c-4bbb-a8af-bf42ff752ea5): ROLLBACK;
+2025-06-22T12:51:10.670Z [ERROR]: Transaction error: notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:51:10.670Z [ERROR]: Service DEBUG:  notNull Violation: otps.email cannot be null,
+notNull Violation: otps.otp cannot be null,
+notNull Violation: otps.isVerified cannot be null
+2025-06-22T12:52:28.817Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:52:28.899Z [INFO]: postgresDB Connected....
+2025-06-22T12:52:28.899Z [INFO]: Database connected successfully.
+2025-06-22T12:52:44.140Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:52:44.140Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:54:59.285Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:54:59.359Z [INFO]: postgresDB Connected....
+2025-06-22T12:54:59.359Z [INFO]: Database connected successfully.
+2025-06-22T12:55:02.403Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:55:02.404Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:55:29.991Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:55:30.067Z [INFO]: postgresDB Connected....
+2025-06-22T12:55:30.068Z [INFO]: Database connected successfully.
+2025-06-22T12:55:33.311Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:55:33.312Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:56:05.632Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:56:05.710Z [INFO]: postgresDB Connected....
+2025-06-22T12:56:05.710Z [INFO]: Database connected successfully.
+2025-06-22T12:56:11.701Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:56:11.701Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:56:39.664Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:56:39.746Z [INFO]: postgresDB Connected....
+2025-06-22T12:56:39.746Z [INFO]: Database connected successfully.
+2025-06-22T12:56:42.241Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:56:42.243Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:57:55.439Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:57:55.516Z [INFO]: postgresDB Connected....
+2025-06-22T12:57:55.517Z [INFO]: Database connected successfully.
+2025-06-22T12:57:59.012Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:57:59.012Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T12:59:31.986Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T12:59:32.059Z [INFO]: postgresDB Connected....
+2025-06-22T12:59:32.059Z [INFO]: Database connected successfully.
+2025-06-22T12:59:36.601Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T12:59:36.601Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T13:00:21.277Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T13:00:21.349Z [INFO]: postgresDB Connected....
+2025-06-22T13:00:21.349Z [INFO]: Database connected successfully.
+2025-06-22T13:00:26.272Z [ERROR]: Error sending OTP email: Missing credentials for "PLAIN"
+2025-06-22T13:00:26.273Z [ERROR]: Error generating and sending OTP: Missing credentials for "PLAIN"
+2025-06-22T13:03:41.158Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T13:03:41.232Z [INFO]: postgresDB Connected....
+2025-06-22T13:03:41.233Z [INFO]: Database connected successfully.
+2025-06-22T13:03:48.029Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <931fef67-161f-ce3f-5814-b328ecfefd88@gmail.com>
+2025-06-22T13:03:48.033Z [INFO]: Executing (eb678e48-62e3-4a12-977a-e97372066db2): START TRANSACTION;
+2025-06-22T13:03:48.112Z [ERROR]: Error in getAllProducts repository: notNull Violation: otps.isVerified cannot be null
+2025-06-22T13:03:48.113Z [INFO]: Executing (eb678e48-62e3-4a12-977a-e97372066db2): ROLLBACK;
+2025-06-22T13:03:48.187Z [ERROR]: Transaction error: notNull Violation: otps.isVerified cannot be null
+2025-06-22T13:03:48.188Z [ERROR]: Service DEBUG:  notNull Violation: otps.isVerified cannot be null
+2025-06-22T13:04:46.610Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T13:04:46.687Z [INFO]: postgresDB Connected....
+2025-06-22T13:04:46.687Z [INFO]: Database connected successfully.
+2025-06-22T13:05:46.252Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <772b1dab-8fa8-c534-bdb1-2cd8557c58de@gmail.com>
+2025-06-22T13:05:46.881Z [INFO]: Executing (0a39769d-f2bd-44cd-bd47-2896336290a1): START TRANSACTION;
+2025-06-22T13:05:46.967Z [INFO]: Executing (0a39769d-f2bd-44cd-bd47-2896336290a1): INSERT INTO "otps" ("id","email","otp","isVerified","createdAt","updatedAt") VALUES (DEFAULT,$1,$2,$3,$4,$5) RETURNING "id","email","otp","isVerified","createdAt","updatedAt";
+2025-06-22T13:05:47.047Z [ERROR]: Error in getAllProducts repository: null value in column "id" of relation "otps" violates not-null constraint
+2025-06-22T13:05:47.048Z [INFO]: Executing (0a39769d-f2bd-44cd-bd47-2896336290a1): ROLLBACK;
+2025-06-22T13:05:47.125Z [ERROR]: Transaction error: null value in column "id" of relation "otps" violates not-null constraint
+2025-06-22T13:05:47.125Z [ERROR]: Service DEBUG:  null value in column "id" of relation "otps" violates not-null constraint
+2025-06-22T13:06:16.563Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T13:06:16.644Z [INFO]: postgresDB Connected....
+2025-06-22T13:06:16.644Z [INFO]: Database connected successfully.
+2025-06-22T13:06:21.933Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <221638fb-6a66-ce42-aabb-a2c21f4e490a@gmail.com>
+2025-06-22T13:06:21.937Z [INFO]: Executing (2d806912-2aaf-47e8-a558-098e12ffe7cb): START TRANSACTION;
+2025-06-22T13:06:22.028Z [INFO]: Executing (2d806912-2aaf-47e8-a558-098e12ffe7cb): INSERT INTO "otps" ("id","email","otp","isVerified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id","email","otp","isVerified","createdAt","updatedAt";
+2025-06-22T13:06:22.117Z [INFO]: Executing (2d806912-2aaf-47e8-a558-098e12ffe7cb): COMMIT;
+2025-06-22T15:17:53.201Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:17:53.280Z [INFO]: postgresDB Connected....
+2025-06-22T15:17:53.280Z [INFO]: Database connected successfully.
+2025-06-22T15:19:29.881Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = 452792 LIMIT 1;
+2025-06-22T15:19:29.957Z [ERROR]: Error in verifyOTP repository: operator does not exist: character varying = integer
+2025-06-22T15:19:29.958Z [ERROR]: Service DEBUG:  operator does not exist: character varying = integer
+2025-06-22T15:20:49.574Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '452792' LIMIT 1;
+2025-06-22T15:20:49.665Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-22T15:20:49.746Z [INFO]: Executing (cae6b827-d1e2-469f-90de-40b4cdf59038): START TRANSACTION;
+2025-06-22T15:20:49.829Z [ERROR]: Error in createUser repository: notNull Violation: users.id cannot be null
+2025-06-22T15:20:49.830Z [INFO]: Executing (cae6b827-d1e2-469f-90de-40b4cdf59038): ROLLBACK;
+2025-06-22T15:20:49.910Z [ERROR]: Transaction error: notNull Violation: users.id cannot be null
+2025-06-22T15:20:49.910Z [ERROR]: Service DEBUG:  notNull Violation: users.id cannot be null
+2025-06-22T15:21:21.101Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:21:21.177Z [INFO]: postgresDB Connected....
+2025-06-22T15:21:21.177Z [INFO]: Database connected successfully.
+2025-06-22T15:21:23.678Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '452792' LIMIT 1;
+2025-06-22T15:21:23.758Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-22T15:21:23.882Z [INFO]: Executing (199febb0-301d-40ef-9f65-22a910635e37): START TRANSACTION;
+2025-06-22T15:21:23.951Z [ERROR]: Error in createUser repository: notNull Violation: users.id cannot be null
+2025-06-22T15:21:23.952Z [INFO]: Executing (199febb0-301d-40ef-9f65-22a910635e37): ROLLBACK;
+2025-06-22T15:21:24.027Z [ERROR]: Transaction error: notNull Violation: users.id cannot be null
+2025-06-22T15:21:24.028Z [ERROR]: Service DEBUG:  notNull Violation: users.id cannot be null
+2025-06-22T15:21:59.872Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:21:59.954Z [INFO]: postgresDB Connected....
+2025-06-22T15:21:59.954Z [INFO]: Database connected successfully.
+2025-06-22T15:22:06.781Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '452792' LIMIT 1;
+2025-06-22T15:22:06.868Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-22T15:23:44.469Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:23:44.542Z [INFO]: postgresDB Connected....
+2025-06-22T15:23:44.542Z [INFO]: Database connected successfully.
+2025-06-22T15:24:45.181Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '452792' LIMIT 1;
+2025-06-22T15:24:45.269Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-22T15:24:45.357Z [INFO]: Executing (40a3c0fa-cc61-40de-9e1e-e0856a72aa6a): START TRANSACTION;
+2025-06-22T15:24:45.446Z [ERROR]: Error in createUser repository: notNull Violation: users.id cannot be null,
+string violation: email cannot be an array or an object
+2025-06-22T15:24:45.447Z [INFO]: Executing (40a3c0fa-cc61-40de-9e1e-e0856a72aa6a): ROLLBACK;
+2025-06-22T15:24:45.533Z [ERROR]: Transaction error: notNull Violation: users.id cannot be null,
+string violation: email cannot be an array or an object
+2025-06-22T15:24:45.533Z [ERROR]: Service DEBUG:  notNull Violation: users.id cannot be null,
+string violation: email cannot be an array or an object
+2025-06-22T15:25:08.604Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:25:08.687Z [INFO]: postgresDB Connected....
+2025-06-22T15:25:08.688Z [INFO]: Database connected successfully.
+2025-06-22T15:25:11.365Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '452792' LIMIT 1;
+2025-06-22T15:25:11.453Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-22T15:25:11.537Z [INFO]: Executing (e53fd59a-153b-4d3e-924f-e87f10844c11): START TRANSACTION;
+2025-06-22T15:25:11.628Z [INFO]: Executing (e53fd59a-153b-4d3e-924f-e87f10844c11): INSERT INTO "users" ("id","email","isVerified","isBanned","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id","phoneNo","name","gender","address","dob","email","profilePic","isVerified","isBanned","createdAt","updatedAt";
+2025-06-22T15:25:11.715Z [INFO]: Executing (e53fd59a-153b-4d3e-924f-e87f10844c11): COMMIT;
+2025-06-22T15:27:19.419Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:27:19.498Z [INFO]: postgresDB Connected....
+2025-06-22T15:27:19.499Z [INFO]: Database connected successfully.
+2025-06-22T15:28:27.338Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."phoneNo" = 'NEX00001' LIMIT 1;
+2025-06-22T15:28:53.211Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:28:53.285Z [INFO]: postgresDB Connected....
+2025-06-22T15:28:53.285Z [INFO]: Database connected successfully.
+2025-06-22T15:28:56.102Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "investmentDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "investments" AS "investments" WHERE "investments"."userId" = 'NEX00001' ORDER BY "investments"."investmentDate" DESC;
+2025-06-22T15:29:52.352Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T15:29:52.434Z [INFO]: postgresDB Connected....
+2025-06-22T15:29:52.435Z [INFO]: Database connected successfully.
+2025-06-22T15:30:39.836Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "investmentDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "investments" AS "investments" WHERE "investments"."userId" = 'NEX00001' ORDER BY "investments"."investmentDate" DESC;
+2025-06-22T15:30:57.730Z [INFO]: Executing (default): SELECT "id", "userId", "name", "title", "amount", "dueAmount", "partialAmount", "lendDate", "status", "remarks", "createdAt", "updatedAt" FROM "lends" AS "lends" WHERE "lends"."userId" = 'NEX00001' ORDER BY "lends"."lendDate" DESC;
+2025-06-22T16:54:39.015Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-22T16:54:39.095Z [INFO]: postgresDB Connected....
+2025-06-22T16:54:39.095Z [INFO]: Database connected successfully.
+2025-06-23T08:38:51.853Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-23T08:38:51.950Z [INFO]: postgresDB Connected....
+2025-06-23T08:38:51.951Z [INFO]: Database connected successfully.
+2025-06-23T08:39:02.836Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <3087189c-862c-7592-4ba1-c236ef0b18d8@gmail.com>
+2025-06-23T08:39:03.514Z [INFO]: Executing (8a0ceb1a-faa2-473d-b240-94979e37fda4): START TRANSACTION;
+2025-06-23T08:39:03.618Z [INFO]: Executing (8a0ceb1a-faa2-473d-b240-94979e37fda4): INSERT INTO "otps" ("id","email","otp","isVerified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id","email","otp","isVerified","createdAt","updatedAt";
+2025-06-23T08:39:03.742Z [INFO]: Executing (8a0ceb1a-faa2-473d-b240-94979e37fda4): COMMIT;
+2025-06-23T08:40:08.984Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-23T08:40:09.078Z [INFO]: postgresDB Connected....
+2025-06-23T08:40:09.078Z [INFO]: Database connected successfully.
+2025-06-23T08:40:42.535Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <8b0d5921-9f75-700b-4376-dca831448c1b@gmail.com>
+2025-06-23T08:40:43.242Z [INFO]: Executing (5912dcee-9e3e-4352-9fcf-7055f9d5a80b): START TRANSACTION;
+2025-06-23T08:40:43.345Z [INFO]: Executing (5912dcee-9e3e-4352-9fcf-7055f9d5a80b): INSERT INTO "otps" ("id","email","otp","isVerified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id","email","otp","isVerified","createdAt","updatedAt";
+2025-06-23T08:40:43.447Z [INFO]: Executing (5912dcee-9e3e-4352-9fcf-7055f9d5a80b): COMMIT;
+2025-06-23T08:42:08.264Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '123456' LIMIT 1;
+2025-06-23T08:44:39.819Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '234566' LIMIT 1;
+2025-06-23T08:44:56.261Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '447081' LIMIT 1;
+2025-06-23T08:44:56.359Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-23T08:45:19.995Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-23T08:45:20.088Z [INFO]: postgresDB Connected....
+2025-06-23T08:45:20.089Z [INFO]: Database connected successfully.
+2025-06-23T08:45:21.803Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '447081' LIMIT 1;
+2025-06-23T08:45:21.918Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-23T08:51:49.234Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-23T08:51:49.328Z [INFO]: postgresDB Connected....
+2025-06-23T08:51:49.328Z [INFO]: Database connected successfully.
+2025-06-23T08:51:50.015Z [INFO]: Cron job executed at: 2025-06-23T08:51:50.015Z
+2025-06-23T08:51:55.015Z [INFO]: Cron job executed at: 2025-06-23T08:51:55.015Z
+2025-06-23T08:52:00.015Z [INFO]: Cron job executed at: 2025-06-23T08:52:00.015Z
+2025-06-23T08:52:05.013Z [INFO]: Cron job executed at: 2025-06-23T08:52:05.013Z
+2025-06-23T08:52:10.012Z [INFO]: Cron job executed at: 2025-06-23T08:52:10.011Z
+2025-06-23T08:52:15.013Z [INFO]: Cron job executed at: 2025-06-23T08:52:15.012Z
+2025-06-23T08:52:20.013Z [INFO]: Cron job executed at: 2025-06-23T08:52:20.012Z
+2025-06-23T08:52:27.250Z [INFO]: Executing (default): SELECT 1+1 AS result
+2025-06-23T08:52:27.344Z [INFO]: postgresDB Connected....
+2025-06-23T08:52:27.344Z [INFO]: Database connected successfully.
+2025-06-23T08:52:30.014Z [INFO]: Cron job executed at: 2025-06-23T08:52:30.014Z
+2025-06-23T08:52:40.014Z [INFO]: Cron job executed at: 2025-06-23T08:52:40.014Z
+2025-06-23T08:52:50.011Z [INFO]: Cron job executed at: 2025-06-23T08:52:50.011Z
+2025-06-23T08:53:00.012Z [INFO]: Cron job executed at: 2025-06-23T08:53:00.012Z
+2025-06-23T08:53:10.013Z [INFO]: Cron job executed at: 2025-06-23T08:53:10.013Z
+2025-06-23T08:53:20.013Z [INFO]: Cron job executed at: 2025-06-23T08:53:20.013Z
+2025-06-23T08:53:30.015Z [INFO]: Cron job executed at: 2025-06-23T08:53:30.015Z
+2025-06-23T08:53:32.991Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <41127da9-07e5-ac1c-5ff9-40f3f1a685d2@gmail.com>
+2025-06-23T08:53:33.677Z [INFO]: Executing (ddd11e6b-ec93-4196-a01d-00d9e1d7ff2b): START TRANSACTION;
+2025-06-23T08:53:33.779Z [INFO]: Executing (ddd11e6b-ec93-4196-a01d-00d9e1d7ff2b): INSERT INTO "otps" ("id","email","otp","isVerified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id","email","otp","isVerified","createdAt","updatedAt";
+2025-06-23T08:53:33.876Z [INFO]: Executing (ddd11e6b-ec93-4196-a01d-00d9e1d7ff2b): COMMIT;
+2025-06-23T08:53:40.012Z [INFO]: Cron job executed at: 2025-06-23T08:53:40.012Z
+2025-06-23T08:53:49.786Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '100513' LIMIT 1;
+2025-06-23T08:53:49.887Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-23T08:53:50.014Z [INFO]: Cron job executed at: 2025-06-23T08:53:50.014Z
+2025-06-23T08:54:00.012Z [INFO]: Cron job executed at: 2025-06-23T08:54:00.012Z
+2025-06-23T08:54:10.010Z [INFO]: Cron job executed at: 2025-06-23T08:54:10.010Z
+2025-06-23T08:54:20.013Z [INFO]: Cron job executed at: 2025-06-23T08:54:20.013Z
+2025-06-23T08:54:30.011Z [INFO]: Cron job executed at: 2025-06-23T08:54:30.011Z
+2025-06-23T08:54:40.013Z [INFO]: Cron job executed at: 2025-06-23T08:54:40.013Z
+2025-06-23T08:54:50.024Z [INFO]: Cron job executed at: 2025-06-23T08:54:50.024Z
+2025-06-23T08:55:00.015Z [INFO]: Cron job executed at: 2025-06-23T08:55:00.015Z
+2025-06-23T08:55:10.017Z [INFO]: Cron job executed at: 2025-06-23T08:55:10.017Z
+2025-06-23T08:55:20.013Z [INFO]: Cron job executed at: 2025-06-23T08:55:20.013Z
+2025-06-23T08:55:30.013Z [INFO]: Cron job executed at: 2025-06-23T08:55:30.013Z
+2025-06-23T08:55:40.013Z [INFO]: Cron job executed at: 2025-06-23T08:55:40.013Z
+2025-06-23T08:55:50.013Z [INFO]: Cron job executed at: 2025-06-23T08:55:50.012Z
+2025-06-23T08:56:00.015Z [INFO]: Cron job executed at: 2025-06-23T08:56:00.015Z
+2025-06-23T08:56:10.010Z [INFO]: Cron job executed at: 2025-06-23T08:56:10.010Z
+2025-06-23T08:56:20.011Z [INFO]: Cron job executed at: 2025-06-23T08:56:20.011Z
+2025-06-23T08:56:30.009Z [INFO]: Cron job executed at: 2025-06-23T08:56:30.009Z
+2025-06-23T08:56:40.012Z [INFO]: Cron job executed at: 2025-06-23T08:56:40.012Z
+2025-06-23T08:56:50.013Z [INFO]: Cron job executed at: 2025-06-23T08:56:50.013Z
+2025-06-23T08:57:00.009Z [INFO]: Cron job executed at: 2025-06-23T08:57:00.009Z
+2025-06-23T08:57:07.544Z [INFO]: OTP email sent to satyammittal1011@gmail.com: <ef18bac1-7d49-7ece-2b68-db9b43418a2b@gmail.com>
+2025-06-23T08:57:08.271Z [INFO]: Executing (7772c70d-7eb7-4560-a31f-975ce0982ebb): START TRANSACTION;
+2025-06-23T08:57:08.373Z [INFO]: Executing (7772c70d-7eb7-4560-a31f-975ce0982ebb): INSERT INTO "otps" ("id","email","otp","isVerified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6) RETURNING "id","email","otp","isVerified","createdAt","updatedAt";
+2025-06-23T08:57:08.473Z [INFO]: Executing (7772c70d-7eb7-4560-a31f-975ce0982ebb): COMMIT;
+2025-06-23T08:57:10.011Z [INFO]: Cron job executed at: 2025-06-23T08:57:10.011Z
+2025-06-23T08:57:20.012Z [INFO]: Cron job executed at: 2025-06-23T08:57:20.012Z
+2025-06-23T08:57:30.012Z [INFO]: Cron job executed at: 2025-06-23T08:57:30.012Z
+2025-06-23T08:57:40.012Z [INFO]: Cron job executed at: 2025-06-23T08:57:40.012Z
+2025-06-23T08:57:44.192Z [INFO]: Executing (default): SELECT "id", "email", "otp", "isVerified", "createdAt", "updatedAt" FROM "otps" AS "otps" WHERE "otps"."email" = 'satyammittal1011@gmail.com' AND "otps"."otp" = '402368' LIMIT 1;
+2025-06-23T08:57:44.287Z [INFO]: Executing (default): SELECT "id", "phoneNo", "name", "gender", "address", "dob", "email", "profilePic", "isVerified", "isBanned", "createdAt", "updatedAt" FROM "users" AS "users" WHERE "users"."email" = 'satyammittal1011@gmail.com' LIMIT 1;
+2025-06-23T08:57:50.019Z [INFO]: Cron job executed at: 2025-06-23T08:57:50.019Z
+2025-06-23T08:58:00.011Z [INFO]: Cron job executed at: 2025-06-23T08:58:00.011Z
+2025-06-23T08:58:10.011Z [INFO]: Cron job executed at: 2025-06-23T08:58:10.011Z
+2025-06-23T08:58:20.011Z [INFO]: Cron job executed at: 2025-06-23T08:58:20.011Z
+2025-06-23T08:58:30.010Z [INFO]: Cron job executed at: 2025-06-23T08:58:30.010Z
+2025-06-23T08:58:40.011Z [INFO]: Cron job executed at: 2025-06-23T08:58:40.011Z
+2025-06-23T08:58:50.016Z [INFO]: Cron job executed at: 2025-06-23T08:58:50.016Z
+2025-06-23T08:59:00.011Z [INFO]: Cron job executed at: 2025-06-23T08:59:00.011Z
+2025-06-23T08:59:10.012Z [INFO]: Cron job executed at: 2025-06-23T08:59:10.012Z
+2025-06-23T08:59:20.011Z [INFO]: Cron job executed at: 2025-06-23T08:59:20.011Z
+2025-06-23T08:59:30.012Z [INFO]: Cron job executed at: 2025-06-23T08:59:30.012Z
+2025-06-23T08:59:40.013Z [INFO]: Cron job executed at: 2025-06-23T08:59:40.013Z
+2025-06-23T08:59:50.010Z [INFO]: Cron job executed at: 2025-06-23T08:59:50.010Z
+2025-06-23T09:00:00.009Z [INFO]: Cron job executed at: 2025-06-23T09:00:00.008Z
+2025-06-23T09:00:10.010Z [INFO]: Cron job executed at: 2025-06-23T09:00:10.010Z
+2025-06-23T09:00:20.010Z [INFO]: Cron job executed at: 2025-06-23T09:00:20.010Z
+2025-06-23T09:00:30.015Z [INFO]: Cron job executed at: 2025-06-23T09:00:30.015Z
+2025-06-23T09:00:40.008Z [INFO]: Cron job executed at: 2025-06-23T09:00:40.008Z
+2025-06-23T09:00:40.693Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:00:40.792Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:00:50.015Z [INFO]: Cron job executed at: 2025-06-23T09:00:50.014Z
+2025-06-23T09:00:56.495Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:01:00.010Z [INFO]: Cron job executed at: 2025-06-23T09:01:00.010Z
+2025-06-23T09:01:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:01:10.012Z
+2025-06-23T09:01:20.013Z [INFO]: Cron job executed at: 2025-06-23T09:01:20.012Z
+2025-06-23T09:01:30.009Z [INFO]: Cron job executed at: 2025-06-23T09:01:30.009Z
+2025-06-23T09:01:40.015Z [INFO]: Cron job executed at: 2025-06-23T09:01:40.015Z
+2025-06-23T09:01:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:01:50.013Z
+2025-06-23T09:02:00.015Z [INFO]: Cron job executed at: 2025-06-23T09:02:00.015Z
+2025-06-23T09:02:10.009Z [INFO]: Cron job executed at: 2025-06-23T09:02:10.009Z
+2025-06-23T09:02:20.009Z [INFO]: Cron job executed at: 2025-06-23T09:02:20.009Z
+2025-06-23T09:02:20.688Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:02:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:02:30.011Z
+2025-06-23T09:02:30.756Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = '9548313517' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:02:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:02:40.011Z
+2025-06-23T09:02:50.014Z [INFO]: Cron job executed at: 2025-06-23T09:02:50.014Z
+2025-06-23T09:03:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:03:00.011Z
+2025-06-23T09:03:10.011Z [INFO]: Cron job executed at: 2025-06-23T09:03:10.011Z
+2025-06-23T09:03:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:03:20.011Z
+2025-06-23T09:03:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:03:30.010Z
+2025-06-23T09:03:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:03:40.011Z
+2025-06-23T09:03:50.023Z [INFO]: Cron job executed at: 2025-06-23T09:03:50.023Z
+2025-06-23T09:04:00.010Z [INFO]: Cron job executed at: 2025-06-23T09:04:00.010Z
+2025-06-23T09:04:10.009Z [INFO]: Cron job executed at: 2025-06-23T09:04:10.009Z
+2025-06-23T09:04:15.147Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:04:20.015Z [INFO]: Cron job executed at: 2025-06-23T09:04:20.015Z
+2025-06-23T09:04:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:04:30.011Z
+2025-06-23T09:04:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:04:40.011Z
+2025-06-23T09:04:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:04:50.013Z
+2025-06-23T09:05:00.010Z [INFO]: Cron job executed at: 2025-06-23T09:05:00.010Z
+2025-06-23T09:05:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:05:10.012Z
+2025-06-23T09:05:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:05:20.011Z
+2025-06-23T09:05:30.013Z [INFO]: Cron job executed at: 2025-06-23T09:05:30.013Z
+2025-06-23T09:05:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:05:40.012Z
+2025-06-23T09:05:50.016Z [INFO]: Cron job executed at: 2025-06-23T09:05:50.016Z
+2025-06-23T09:06:00.012Z [INFO]: Cron job executed at: 2025-06-23T09:06:00.012Z
+2025-06-23T09:06:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:06:10.012Z
+2025-06-23T09:06:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:06:20.012Z
+2025-06-23T09:06:30.012Z [INFO]: Cron job executed at: 2025-06-23T09:06:30.012Z
+2025-06-23T09:06:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:06:40.012Z
+2025-06-23T09:06:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:06:50.013Z
+2025-06-23T09:07:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:07:00.011Z
+2025-06-23T09:07:10.011Z [INFO]: Cron job executed at: 2025-06-23T09:07:10.011Z
+2025-06-23T09:07:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:07:20.012Z
+2025-06-23T09:07:30.012Z [INFO]: Cron job executed at: 2025-06-23T09:07:30.012Z
+2025-06-23T09:07:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:07:40.011Z
+2025-06-23T09:07:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:07:50.013Z
+2025-06-23T09:08:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:08:00.011Z
+2025-06-23T09:08:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:08:10.012Z
+2025-06-23T09:08:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:08:20.012Z
+2025-06-23T09:08:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:08:30.010Z
+2025-06-23T09:08:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:08:40.012Z
+2025-06-23T09:08:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:08:50.012Z
+2025-06-23T09:09:00.012Z [INFO]: Cron job executed at: 2025-06-23T09:09:00.012Z
+2025-06-23T09:09:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:09:10.011Z
+2025-06-23T09:09:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:09:20.012Z
+2025-06-23T09:09:30.012Z [INFO]: Cron job executed at: 2025-06-23T09:09:30.012Z
+2025-06-23T09:09:40.017Z [INFO]: Cron job executed at: 2025-06-23T09:09:40.017Z
+2025-06-23T09:09:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:09:50.013Z
+2025-06-23T09:10:00.019Z [INFO]: Cron job executed at: 2025-06-23T09:10:00.019Z
+2025-06-23T09:10:10.019Z [INFO]: Cron job executed at: 2025-06-23T09:10:10.019Z
+2025-06-23T09:10:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:10:20.011Z
+2025-06-23T09:10:30.013Z [INFO]: Cron job executed at: 2025-06-23T09:10:30.013Z
+2025-06-23T09:10:40.015Z [INFO]: Cron job executed at: 2025-06-23T09:10:40.015Z
+2025-06-23T09:10:50.011Z [INFO]: Cron job executed at: 2025-06-23T09:10:50.011Z
+2025-06-23T09:11:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:11:00.011Z
+2025-06-23T09:11:10.010Z [INFO]: Cron job executed at: 2025-06-23T09:11:10.010Z
+2025-06-23T09:11:20.013Z [INFO]: Cron job executed at: 2025-06-23T09:11:20.013Z
+2025-06-23T09:11:30.013Z [INFO]: Cron job executed at: 2025-06-23T09:11:30.013Z
+2025-06-23T09:11:40.008Z [INFO]: Cron job executed at: 2025-06-23T09:11:40.008Z
+2025-06-23T09:11:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:11:50.013Z
+2025-06-23T09:12:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:12:00.011Z
+2025-06-23T09:12:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:12:10.012Z
+2025-06-23T09:12:20.016Z [INFO]: Cron job executed at: 2025-06-23T09:12:20.016Z
+2025-06-23T09:12:30.009Z [INFO]: Cron job executed at: 2025-06-23T09:12:30.009Z
+2025-06-23T09:12:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:12:40.012Z
+2025-06-23T09:12:50.009Z [INFO]: Cron job executed at: 2025-06-23T09:12:50.009Z
+2025-06-23T09:13:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:13:00.011Z
+2025-06-23T09:13:10.014Z [INFO]: Cron job executed at: 2025-06-23T09:13:10.014Z
+2025-06-23T09:13:20.009Z [INFO]: Cron job executed at: 2025-06-23T09:13:20.009Z
+2025-06-23T09:13:30.009Z [INFO]: Cron job executed at: 2025-06-23T09:13:30.009Z
+2025-06-23T09:13:40.009Z [INFO]: Cron job executed at: 2025-06-23T09:13:40.009Z
+2025-06-23T09:13:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:13:50.012Z
+2025-06-23T09:14:00.012Z [INFO]: Cron job executed at: 2025-06-23T09:14:00.012Z
+2025-06-23T09:14:10.011Z [INFO]: Cron job executed at: 2025-06-23T09:14:10.011Z
+2025-06-23T09:14:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:14:20.012Z
+2025-06-23T09:14:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:14:30.010Z
+2025-06-23T09:14:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:14:40.012Z
+2025-06-23T09:14:46.055Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:14:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:14:50.012Z
+2025-06-23T09:15:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:15:00.011Z
+2025-06-23T09:15:10.010Z [INFO]: Cron job executed at: 2025-06-23T09:15:10.010Z
+2025-06-23T09:15:20.013Z [INFO]: Cron job executed at: 2025-06-23T09:15:20.013Z
+2025-06-23T09:15:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:15:30.010Z
+2025-06-23T09:15:40.010Z [INFO]: Cron job executed at: 2025-06-23T09:15:40.010Z
+2025-06-23T09:15:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:15:50.012Z
+2025-06-23T09:16:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:16:00.011Z
+2025-06-23T09:16:10.014Z [INFO]: Cron job executed at: 2025-06-23T09:16:10.014Z
+2025-06-23T09:16:20.010Z [INFO]: Cron job executed at: 2025-06-23T09:16:20.010Z
+2025-06-23T09:16:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:16:30.011Z
+2025-06-23T09:16:40.013Z [INFO]: Cron job executed at: 2025-06-23T09:16:40.013Z
+2025-06-23T09:16:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:16:50.012Z
+2025-06-23T09:17:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:17:00.011Z
+2025-06-23T09:17:10.010Z [INFO]: Cron job executed at: 2025-06-23T09:17:10.010Z
+2025-06-23T09:17:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:17:20.011Z
+2025-06-23T09:17:30.009Z [INFO]: Cron job executed at: 2025-06-23T09:17:30.009Z
+2025-06-23T09:17:40.013Z [INFO]: Cron job executed at: 2025-06-23T09:17:40.013Z
+2025-06-23T09:17:50.014Z [INFO]: Cron job executed at: 2025-06-23T09:17:50.014Z
+2025-06-23T09:18:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:18:00.011Z
+2025-06-23T09:18:10.019Z [INFO]: Cron job executed at: 2025-06-23T09:18:10.019Z
+2025-06-23T09:18:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:18:20.011Z
+2025-06-23T09:18:30.012Z [INFO]: Cron job executed at: 2025-06-23T09:18:30.012Z
+2025-06-23T09:18:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:18:40.011Z
+2025-06-23T09:18:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:18:50.013Z
+2025-06-23T09:19:00.012Z [INFO]: Cron job executed at: 2025-06-23T09:19:00.012Z
+2025-06-23T09:19:10.013Z [INFO]: Cron job executed at: 2025-06-23T09:19:10.013Z
+2025-06-23T09:19:20.013Z [INFO]: Cron job executed at: 2025-06-23T09:19:20.013Z
+2025-06-23T09:19:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:19:30.011Z
+2025-06-23T09:19:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:19:40.011Z
+2025-06-23T09:19:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:19:50.013Z
+2025-06-23T09:20:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:20:00.011Z
+2025-06-23T09:20:10.013Z [INFO]: Cron job executed at: 2025-06-23T09:20:10.013Z
+2025-06-23T09:20:20.021Z [INFO]: Cron job executed at: 2025-06-23T09:20:20.020Z
+2025-06-23T09:20:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:20:30.010Z
+2025-06-23T09:20:40.009Z [INFO]: Cron job executed at: 2025-06-23T09:20:40.009Z
+2025-06-23T09:20:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:20:50.012Z
+2025-06-23T09:21:00.012Z [INFO]: Cron job executed at: 2025-06-23T09:21:00.012Z
+2025-06-23T09:21:10.016Z [INFO]: Cron job executed at: 2025-06-23T09:21:10.016Z
+2025-06-23T09:21:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:21:20.012Z
+2025-06-23T09:21:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:21:30.010Z
+2025-06-23T09:21:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:21:40.012Z
+2025-06-23T09:21:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:21:50.013Z
+2025-06-23T09:22:00.014Z [INFO]: Cron job executed at: 2025-06-23T09:22:00.014Z
+2025-06-23T09:22:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:22:10.012Z
+2025-06-23T09:22:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:22:20.011Z
+2025-06-23T09:22:30.013Z [INFO]: Cron job executed at: 2025-06-23T09:22:30.012Z
+2025-06-23T09:22:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:22:40.011Z
+2025-06-23T09:22:50.015Z [INFO]: Cron job executed at: 2025-06-23T09:22:50.015Z
+2025-06-23T09:23:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:23:00.011Z
+2025-06-23T09:23:10.010Z [INFO]: Cron job executed at: 2025-06-23T09:23:10.010Z
+2025-06-23T09:23:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:23:20.011Z
+2025-06-23T09:23:30.012Z [INFO]: Cron job executed at: 2025-06-23T09:23:30.012Z
+2025-06-23T09:23:40.013Z [INFO]: Cron job executed at: 2025-06-23T09:23:40.013Z
+2025-06-23T09:23:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:23:50.012Z
+2025-06-23T09:24:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:24:00.011Z
+2025-06-23T09:24:10.015Z [INFO]: Cron job executed at: 2025-06-23T09:24:10.015Z
+2025-06-23T09:24:20.010Z [INFO]: Cron job executed at: 2025-06-23T09:24:20.010Z
+2025-06-23T09:24:30.016Z [INFO]: Cron job executed at: 2025-06-23T09:24:30.016Z
+2025-06-23T09:24:40.015Z [INFO]: Cron job executed at: 2025-06-23T09:24:40.015Z
+2025-06-23T09:24:50.027Z [INFO]: Cron job executed at: 2025-06-23T09:24:50.027Z
+2025-06-23T09:25:00.020Z [INFO]: Cron job executed at: 2025-06-23T09:25:00.020Z
+2025-06-23T09:25:10.013Z [INFO]: Cron job executed at: 2025-06-23T09:25:10.013Z
+2025-06-23T09:25:20.016Z [INFO]: Cron job executed at: 2025-06-23T09:25:20.016Z
+2025-06-23T09:25:30.013Z [INFO]: Cron job executed at: 2025-06-23T09:25:30.013Z
+2025-06-23T09:25:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:25:40.011Z
+2025-06-23T09:25:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:25:50.013Z
+2025-06-23T09:26:00.010Z [INFO]: Cron job executed at: 2025-06-23T09:26:00.009Z
+2025-06-23T09:26:10.014Z [INFO]: Cron job executed at: 2025-06-23T09:26:10.014Z
+2025-06-23T09:26:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:26:20.011Z
+2025-06-23T09:26:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:26:30.011Z
+2025-06-23T09:26:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:26:40.011Z
+2025-06-23T09:26:50.011Z [INFO]: Cron job executed at: 2025-06-23T09:26:50.010Z
+2025-06-23T09:27:00.023Z [INFO]: Cron job executed at: 2025-06-23T09:27:00.023Z
+2025-06-23T09:27:10.011Z [INFO]: Cron job executed at: 2025-06-23T09:27:10.011Z
+2025-06-23T09:27:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:27:20.011Z
+2025-06-23T09:27:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:27:30.011Z
+2025-06-23T09:27:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:27:40.012Z
+2025-06-23T09:27:50.017Z [INFO]: Cron job executed at: 2025-06-23T09:27:50.017Z
+2025-06-23T09:28:00.008Z [INFO]: Cron job executed at: 2025-06-23T09:28:00.008Z
+2025-06-23T09:28:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:28:10.012Z
+2025-06-23T09:28:20.012Z [INFO]: Cron job executed at: 2025-06-23T09:28:20.012Z
+2025-06-23T09:28:30.014Z [INFO]: Cron job executed at: 2025-06-23T09:28:30.014Z
+2025-06-23T09:28:40.017Z [INFO]: Cron job executed at: 2025-06-23T09:28:40.017Z
+2025-06-23T09:28:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:28:50.011Z
+2025-06-23T09:29:00.010Z [INFO]: Cron job executed at: 2025-06-23T09:29:00.010Z
+2025-06-23T09:29:04.596Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:29:10.014Z [INFO]: Cron job executed at: 2025-06-23T09:29:10.014Z
+2025-06-23T09:29:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:29:20.010Z
+2025-06-23T09:29:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:29:30.011Z
+2025-06-23T09:29:40.053Z [INFO]: Cron job executed at: 2025-06-23T09:29:40.052Z
+2025-06-23T09:29:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:29:50.013Z
+2025-06-23T09:30:00.014Z [INFO]: Cron job executed at: 2025-06-23T09:30:00.014Z
+2025-06-23T09:30:10.011Z [INFO]: Cron job executed at: 2025-06-23T09:30:10.011Z
+2025-06-23T09:30:20.010Z [INFO]: Cron job executed at: 2025-06-23T09:30:20.010Z
+2025-06-23T09:30:30.014Z [INFO]: Cron job executed at: 2025-06-23T09:30:30.013Z
+2025-06-23T09:30:40.010Z [INFO]: Cron job executed at: 2025-06-23T09:30:40.010Z
+2025-06-23T09:30:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:30:50.012Z
+2025-06-23T09:31:00.009Z [INFO]: Cron job executed at: 2025-06-23T09:31:00.009Z
+2025-06-23T09:31:10.011Z [INFO]: Cron job executed at: 2025-06-23T09:31:10.011Z
+2025-06-23T09:31:16.051Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:31:20.010Z [INFO]: Cron job executed at: 2025-06-23T09:31:20.009Z
+2025-06-23T09:31:30.011Z [INFO]: Cron job executed at: 2025-06-23T09:31:30.011Z
+2025-06-23T09:31:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:31:40.011Z
+2025-06-23T09:31:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:31:50.012Z
+2025-06-23T09:32:00.011Z [INFO]: Cron job executed at: 2025-06-23T09:32:00.011Z
+2025-06-23T09:32:10.014Z [INFO]: Cron job executed at: 2025-06-23T09:32:10.014Z
+2025-06-23T09:32:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:32:20.011Z
+2025-06-23T09:32:30.014Z [INFO]: Cron job executed at: 2025-06-23T09:32:30.014Z
+2025-06-23T09:32:40.011Z [INFO]: Cron job executed at: 2025-06-23T09:32:40.011Z
+2025-06-23T09:32:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:32:50.013Z
+2025-06-23T09:33:00.010Z [INFO]: Cron job executed at: 2025-06-23T09:33:00.010Z
+2025-06-23T09:33:10.013Z [INFO]: Cron job executed at: 2025-06-23T09:33:10.013Z
+2025-06-23T09:33:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:33:20.011Z
+2025-06-23T09:33:30.014Z [INFO]: Cron job executed at: 2025-06-23T09:33:30.014Z
+2025-06-23T09:33:40.010Z [INFO]: Cron job executed at: 2025-06-23T09:33:40.010Z
+2025-06-23T09:33:46.719Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:33:50.013Z [INFO]: Cron job executed at: 2025-06-23T09:33:50.013Z
+2025-06-23T09:34:00.019Z [INFO]: Cron job executed at: 2025-06-23T09:34:00.019Z
+2025-06-23T09:34:10.009Z [INFO]: Cron job executed at: 2025-06-23T09:34:10.009Z
+2025-06-23T09:34:12.716Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'null' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:34:20.014Z [INFO]: Cron job executed at: 2025-06-23T09:34:20.013Z
+2025-06-23T09:34:30.010Z [INFO]: Cron job executed at: 2025-06-23T09:34:30.010Z
+2025-06-23T09:34:40.012Z [INFO]: Cron job executed at: 2025-06-23T09:34:40.012Z
+2025-06-23T09:34:50.010Z [INFO]: Cron job executed at: 2025-06-23T09:34:50.010Z
+2025-06-23T09:35:00.009Z [INFO]: Cron job executed at: 2025-06-23T09:35:00.009Z
+2025-06-23T09:35:10.012Z [INFO]: Cron job executed at: 2025-06-23T09:35:10.012Z
+2025-06-23T09:35:20.011Z [INFO]: Cron job executed at: 2025-06-23T09:35:20.011Z
+2025-06-23T09:35:30.009Z [INFO]: Cron job executed at: 2025-06-23T09:35:30.009Z
+2025-06-23T09:35:30.691Z [INFO]: Executing (default): SELECT "id", "userId", "title", "amount", "expenseDate", "category", "tag", "remarks", "createdAt", "updatedAt" FROM "expenses" AS "expenses" WHERE "expenses"."userId" = 'NEX00001' ORDER BY "expenses"."expenseDate" DESC;
+2025-06-23T09:35:40.013Z [INFO]: Cron job executed at: 2025-06-23T09:35:40.013Z
+2025-06-23T09:35:50.012Z [INFO]: Cron job executed at: 2025-06-23T09:35:50.012Z

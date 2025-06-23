@@ -1,11 +1,13 @@
-const {register, login} = require("./auth")
+const {register, verifyOTP } = require("./auth")
 const {getExpenses, addExpense} = require("./expense")
 const {getLends, addLend} = require("./lend")
 const {getInvestments, addInvestment} = require("./investment")
+const {generateAndSendOTP, resendOTP, getOTPStatus} = require("./emailOTP")
+
 module.exports = {
     authService : {
         register: register,
-        login : login
+        verifyOTP: verifyOTP
     },
     expenseService : {
         getExpenses : getExpenses,
@@ -18,6 +20,11 @@ module.exports = {
     investmentService : {
         getInvestments : getInvestments,
         addInvestment : addInvestment
+    },
+    emailOTPService : {
+        generateAndSendOTP : generateAndSendOTP,
+        verifyOTP : verifyOTP,
+        resendOTP : resendOTP,
+        getOTPStatus : getOTPStatus
     }
-
 };

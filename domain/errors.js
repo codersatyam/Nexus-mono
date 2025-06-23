@@ -47,6 +47,7 @@ invalidToken: AppError('Invalid Token', 401),
 missingData: AppError('Missing required data', 400),
 missingField: (field) => AppError(`Missing required field: ${field}`, 400),
 missingFields: (fields) => AppError(`Missing required fields: ${fields.join(', ')}`, 400),
+invalidField: (field, message) => AppError(`${field}: ${message}`, 400),
 
 // Product errors
 productNotFound: AppError('Product not found', 404),
