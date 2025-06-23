@@ -4,38 +4,46 @@ const db = require('../../models');
 
 
 
-const checkUserBanned = async (phoneNo) => {
+const addOTPInfo = async (email, otp, t) => {
     try {
-        return await db.users.findOne({
-            where: {phoneNo},
-        });
-    } catch (error) {
-        logger.error('Error in getting userInfo:', error);
-        throw error;
-    }
-};
-
-const addOTPInfo = async (phoneNo, otp, t) => {
-    try {
-            return await db.otp.create({phoneNo, otp},{transaction:t})
+        return await db.otps.create({email, otp},{transaction:t})
     } catch (error) {
         logger.error('Error in getAllProducts repository:', error);
         throw error;
     }
 }
 
-const createUser = async () => {
+const verifyOTP = async (email, otp) => {
     try {
-        const products = await db.user.create({},{transaction:t});
-        return products;
+        return await db.otps.findOne({where: {email, otp},raw:true})
     } catch (error) {
-        logger.error('Error in getAllProducts repository:', error);
+        logger.error('Error in verifyOTP repository:', error);
         throw error;
     }
 }
+
+const getUserInfo = async (email) => {
+    try {
+        return await db.users.findOne({where: {email},raw:true})
+    } catch (error) {
+        logger.error('Error in getUserInfo repository:', error);
+        throw error;
+    }
+}
+
+const createUser = async (id, email, t) => {
+    try {
+        return await db.users.create({id,email}, {transaction: t})
+    } catch (error) {
+        logger.error('Error in createUser repository:', error);
+        throw error;
+    }
+}
+
 
 module.exports = {
-    checkUserBanned,
     addOTPInfo,
+    verifyOTP,
+    getUserInfo,
     createUser
 };

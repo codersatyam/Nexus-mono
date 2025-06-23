@@ -5,13 +5,13 @@ const allErrors = require("../../domain/errors")
 const {investmentRepo} = require("../../repo/public")
 const {withTransaction} = require("../../utils/transactionWrapper")
 
-const addInvestment = async (phoneNo, record) => {
+const addInvestment = async (userId, record) => {
     try {
-        const user = await investmentRepo.getUserByPhoneNo(phoneNo);
-        if(!user){
-            return allErrors.userNotFound.getJSONError();
-        }
-        const userId = user?.id;
+        // const user = await investmentRepo.getUserByPhoneNo(phoneNo);
+        // if(!user){
+        //     return allErrors.userNotFound.getJSONError();
+        // }
+        // const userId = user?.id;
         const investmentId = "NEXUS-" + randomUUID();
         record.id = investmentId;
         const response = await withTransaction(async (t) => {
@@ -29,13 +29,13 @@ const addInvestment = async (phoneNo, record) => {
     }
 };
 
-const getInvestments = async (phoneNo) => {
+const getInvestments = async (userId) => {
     try {
-        const user = await investmentRepo.getUserByPhoneNo(phoneNo);
-        if(!user){
-            return allErrors.userNotFound.getJSONError();
-        }
-        const userId = user?.id;
+        // const user = await investmentRepo.getUserByPhoneNo(phoneNo);
+        // if(!user){
+        //     return allErrors.userNotFound.getJSONError();
+        // }
+        // const userId = user?.id;
         const investments = await investmentRepo.getInvestments(userId);
         return {
             status: 'success',

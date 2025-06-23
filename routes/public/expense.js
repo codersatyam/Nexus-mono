@@ -5,10 +5,10 @@ const logger = require('../../domain/logs')
 const { expenseService } = require('../../services/public');
 const allErrors = require("../../domain/errors");
 
-router.get('/all/:phoneNo', async (req, res) => {
+router.get('/all/:userId', async (req, res) => {
     try {
-        const phoneNo = req.params.phoneNo;
-        const response = await expenseService.getExpenses(phoneNo);
+        const userId = req.params.userId;
+        const response = await expenseService.getExpenses(userId);
         if (response.status === 'success') {
             res.status(200).send(response);
         } else {
@@ -27,15 +27,15 @@ router.post('/addExpense', async (req, res) => {
                 message: 'Invalid request body'
             });
         }
-        const {phoneNo, title, amount, expenseDate, category, tag, remarks} = req.body;
-        if(!phoneNo || !title || !amount || !expenseDate || !category || !tag){
+        const {userId, title, amount, expenseDate, category, tag, remarks} = req.body;
+        if(!userId || !title || !amount || !expenseDate || !category || !tag){
             return res.status(400).send({
                 status: 'error',
                 message: 'Missing required fields'
             });
         }
         const record = {title, amount, expenseDate, category, tag, remarks};
-        const response = await expenseService.addExpense(phoneNo, record);
+        const response = await expenseService.addExpense(userId, record);
         if (response.status === 'success') {
             res.status(200).send(response);
         } else {

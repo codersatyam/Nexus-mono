@@ -5,10 +5,10 @@ const logger = require('../../domain/logs')
 const { investmentService } = require('../../services/public');
 const allErrors = require("../../domain/errors");
 
-router.get('/all/:phoneNo', async (req, res) => {
+router.get('/all/:userId', async (req, res) => {
     try {
-        const phoneNo = req.params.phoneNo;
-        const response = await investmentService.getInvestments(phoneNo);
+        const userId = req.params.userId;
+        const response = await investmentService.getInvestments(userId);
         if (response.status === 'success') {
             res.status(200).send(response);
         } else {

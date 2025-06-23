@@ -5,13 +5,8 @@ const allErrors = require("../../domain/errors")
 const {lendRepo} = require("../../repo/public")
 const {withTransaction} = require("../../utils/transactionWrapper")
 
-const addLend = async (phoneNo, record) => {
+const addLend = async (userId, record) => {
     try {
-        const user = await lendRepo.getUserByPhoneNo(phoneNo);
-        if(!user){
-            return allErrors.userNotFound.getJSONError();
-        }
-        const userId = user?.id;
         const lendId = "NEXUS-" + randomUUID();
         record.id = lendId;
         const response = await withTransaction(async (t) => {
@@ -29,13 +24,8 @@ const addLend = async (phoneNo, record) => {
     }
 };
 
-const getLends = async (phoneNo) => {
+const getLends = async (userId) => {
     try {
-        const user = await lendRepo.getUserByPhoneNo(phoneNo);
-        if(!user){
-            return allErrors.userNotFound.getJSONError();
-        }
-        const userId = user?.id;
         const lends = await lendRepo.getLends(userId);
         return {
             status: 'success',

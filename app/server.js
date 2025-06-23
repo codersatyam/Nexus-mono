@@ -3,18 +3,39 @@ const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const rTracer = require('cls-rtracer');
 const dotenv = require("dotenv");
+const cron = require('node-cron');
+
+// Load environment variables from .env file
+dotenv.config();
+
 const generalConfigs = require('../config/general-config')
 const connectDB = require('../domain/db')
 const logger = require('../domain/logs')
 const publicRoutes = require('../routes/public')
 
-
+// Cron job function that runs every 3 seconds
+const runCronJob = () => {
+    const timestamp = new Date().toISOString();
+    console.log(`🕐 [CRON JOB] ${timestamp} - Server is running and healthy!`);
+    logger.info(`Cron job executed at: ${timestamp}`);
+};
 
 const initializeServer = async(port) => {
   try {
     await connectDB();
     logger.info('Database connected successfully.');
     const server = express();
+    
+    // Start cron job that runs every 3 seconds
+    cron.schedule('*/10 * * * * *', () => {
+        runCronJob();
+    }, {
+        scheduled: true,
+        timezone: "Asia/Kolkata"
+    });
+    
+    console.log('⏰ Cron job started - running every 5 seconds');
+    
     // Request tracing
     server.use(
       rTracer.expressMiddleware({
