@@ -27,14 +27,14 @@ const initializeServer = async(port) => {
     const server = express();
     
     // Start cron job that runs every 3 seconds
-    cron.schedule('*/10 * * * * *', () => {
-        runCronJob();
-    }, {
-        scheduled: true,
-        timezone: "Asia/Kolkata"
-    });
+    // cron.schedule('*/10 * * * * *', () => {
+    //     runCronJob();
+    // }, {
+    //     scheduled: true,
+    //     timezone: "Asia/Kolkata"
+    // });
     
-    console.log('⏰ Cron job started - running every 5 seconds');
+    // console.log('⏰ Cron job started - running every 5 seconds');
     
     // Request tracing
     server.use(
@@ -71,6 +71,9 @@ const initializeServer = async(port) => {
   });
     // Route handlers
     server.use("/api/v1/", publicRoutes);
+    server.use("/api/v1/health", (req, res) => {
+      res.status(200).json({ message: 'Server is running and healthy!' });
+    });
 
     // Error handling middleware
     server.use((err, req, res, next) => {
