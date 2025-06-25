@@ -12,7 +12,7 @@ const addInvestment = async (userId, record) => {
         //     return allErrors.userNotFound.getJSONError();
         // }
         // const userId = user?.id;
-        const investmentId = "NEXUS-" + randomUUID();
+        const investmentId = "INVESTMENT-" + randomUUID();
         record.id = investmentId;
         const response = await withTransaction(async (t) => {
             const result = await investmentRepo.addInvestment(userId, record, t);
