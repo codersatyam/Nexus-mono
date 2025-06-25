@@ -29,7 +29,7 @@ const addInvestment = async (userId, record, t) => {
 
 const getInvestments = async (userId) => {
     try {
-        const investments = await db.investments.findAll({where: {userId: userId}, order: [['investmentDate', 'DESC']]});
+        const investments = await db.investments.findAll({where: {userId: userId}, order: [['investmentDate', 'DESC']]}, {raw: true});
         return investments;
     } catch (error) {
         logger.error('Error in getInvestments repository:', error);
