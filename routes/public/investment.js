@@ -27,15 +27,15 @@ router.post('/addInvestment', async (req, res) => {
                 message: 'Invalid request body'
             });
         }
-        const {phoneNo, title, amount, investmentDate, category, tag, remarks} = req.body;
-        if(!phoneNo || !title || !amount || !investmentDate || !category){
+        const {userId, title, amount, investmentDate, category, tag, remarks} = req.body;
+        if(!userId || !title || !amount || !investmentDate || !category){
             return res.status(400).send({
                 status: 'error',
                 message: 'Missing required fields'
             });
         }
         const record = {title, amount, investmentDate, category, tag, remarks};
-        const response = await investmentService.addInvestment(phoneNo, record);
+        const response = await investmentService.addInvestment(userId, record);
         if (response.status === 'success') {
             res.status(200).send(response);
         } else {
