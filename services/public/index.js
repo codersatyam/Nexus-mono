@@ -2,6 +2,7 @@ const {register, verifyOTP } = require("./auth")
 const {getExpenses, addExpense} = require("./expense")
 const {getLends, addLend} = require("./lend")
 const {getInvestments, addInvestment} = require("./investment")
+const {getIncomes, addIncome} = require("./income")
 const {generateAndSendOTP, resendOTP, getOTPStatus} = require("./emailOTP")
 
 module.exports = {
@@ -20,6 +21,10 @@ module.exports = {
     investmentService : {
         getInvestments : getInvestments,
         addInvestment : addInvestment
+    },
+    incomeService : {
+        getIncomes : getIncomes,
+        addIncome : addIncome
     },
     emailOTPService : {
         generateAndSendOTP : generateAndSendOTP,
