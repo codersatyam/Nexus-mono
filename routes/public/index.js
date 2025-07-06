@@ -5,6 +5,7 @@ const expense = require("./expense")
 const lend = require("./lend")
 const investment = require("./investment")
 const auth = require("./auth")
+const income = require("./income")
 
 // Verify that each imported route is a valid router middleware
 const routes = [
@@ -12,6 +13,7 @@ const routes = [
     { path: "/lend", handler: lend},
     { path: "/investment", handler: investment},
     { path: "/auth", handler: auth},
+    { path: "/income", handler: income},
 ];
 
 // Add routes with validation
